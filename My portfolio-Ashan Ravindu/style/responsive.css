@@ -1,0 +1,269 @@
+
+@media (max-width: 450px){
+
+  /* About And Navbar Responsive Design */
+   
+    h1.about-article-title{
+        font-size:18px;
+        text-decoration: underline  ;
+    
+    }
+    img#img-hello{
+        width: 25px;
+        object-fit: cover;
+        
+    }
+    #my-name{
+        font-size: 28px;
+    }
+    p.about-article-text{
+        font-size: 13px;
+    }
+    .footer-socialIcon-Set>a>img{
+        width: 20px;
+        height: 20px;
+        object-fit: cover;
+    }
+    section.about-article{
+        margin-bottom: auto;
+    }
+    .about-article-image>img{
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .navbar {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background: hsla(240, 1%, 17%, 0.75);
+        backdrop-filter: blur(10px);
+        border: 1px solid var(--jet);
+        border-radius: 12px 12px 0 0;
+        box-shadow: var(--shadow-2);
+        z-index: 5;
+      }
+      .navbar-list {
+        color:  hsla(240, 0%, 17%, 0);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 0 10px;
+    
+      }
+
+    
+
+      .navbar-logo img{
+        width: 40px;
+        padding: 0px;
+        margin-right: -887px;
+      }
+      button.navbar-link{
+        font-size: 10px;
+        padding: 2px;
+        margin: 2px;
+      }
+      ul.navbar-list{
+        gap: 3px;
+        display: block;
+        display: flex;
+        padding: 0%;
+      }
+      
+/* About And Navbar Responsive Design END */
+
+/* whatIamDoing Page Responsive */
+
+div.card-body{
+ padding: 8px;
+ width: auto;
+    }
+    .card-title{
+        font-size: 16px;
+    }
+    p.card-text{
+        font-size: 12px;
+    }
+    img{
+        
+    }
+
+ /* whatIamDoing Page Responsive END*/   
+
+
+ /* Resume Page Responsive */
+ h3.font-family{
+  font-size: 20px;
+ }
+ img.resume-img{
+  width: 34px;
+ }
+ h4.h4.timeline-item-title{
+  font-size: 18px;
+ }
+ li.timeline-item>span{
+  font-size: 12px;
+ }
+ li.timeline-item>p.timeline-text{
+  font-size: 14px;
+ }
+#child-text{
+  font-size: 12px;
+ }
+.title-wrapper>.h5{
+  font-size: 12px;
+ }
+ .title-wrapper>data{
+  font-size: 11px;
+ }
+ ul.skills-list.content-card{
+  padding: 5px;
+ }
+
+  /* Resume Page Responsive END*/
+
+}
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+@media screen and (min-width: 451px) and (max-width: 580px){
+  /* About And Navbar Responsive Design */
+
+.navbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: hsla(240, 1%, 17%, 0.75);
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--jet);
+    border-radius: 12px 12px 0 0;
+    box-shadow: var(--shadow-2);
+    z-index: 5;
+  }
+  .navbar-list {
+    color:  hsla(240, 0%, 17%, 0);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-right: 32px;
+    
+    
+  }
+
+
+
+  .navbar-logo>img{
+    width: 38px;
+    padding: 0px;
+    margin-left: 14px;
+    object-fit: cover;
+    
+
+  }
+  button.navbar-link{
+    font-size: 12px;
+    padding: 0px;
+    margin: 0px;
+    
+  }
+
+
+
+ 
+  ul.navbar-list{
+
+    gap: 11px;
+    display: flow-root;
+    display: flex;
+    padding:0%;
+    margin-left: -10px;
+    padding-right: 0px;
+    
+  }
+
+    /* Resume Page Responsive */
+
+  ul.skills-list.content-card{
+    padding: 5px;
+   }
+     /* Resume Page Responsive END*/
+
+  
+  
+/* About And Navbar Responsive Design END */
+}
+   
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 581px) and (max-width: 768px) {
+  /* About And Navbar Responsive Design */
+  
+  
+  
+  .navbar-logo img{
+    width: 80px;
+    padding: 0px;
+    margin-left: 12px;
+  
+  }
+  button.navbar-link{
+    font-size: 13px;
+    padding: 12px;
+    margin: 1px;
+  }
+  ul.navbar-list{
+    gap: 3px;
+    display: block;
+    display: flex;
+    padding: 0%;
+  }
+
+  
+/* About And Navbar Responsive Design END */
+
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  /* About And Navbar Responsive Design */
+   
+ .navbar-logo img{
+  width: 90px;
+  padding: 0px;
+  margin-right: 20px;
+
+}
+button.navbar-link{
+  font-size: 13px;
+  padding: 20px;
+  margin: 0px;
+}
+ul.navbar-list{
+  gap: 3px;
+  display: block;
+  display: flex;
+  padding: 0%;
+  margin-right: 42px;
+}
+
+/* About And Navbar Responsive Design END */
+}
+
+
+@media (max-width: 1200px) {
+}
+
+
+@media (max-width: 1600px) {
+}
+
+
+@media (max-width: 1920px) {
+    
+}

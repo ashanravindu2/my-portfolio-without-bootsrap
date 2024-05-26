@@ -1,0 +1,161 @@
+body{
+  background-color:  #524f4f;
+}
+.navbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: hsla(240, 1%, 17%, 0.75);
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--jet);
+    border-radius: 12px 12px 0 0;
+    box-shadow: var(--shadow-2);
+    z-index: 5;
+  }
+  .navbar-list {
+    color:  hsla(240, 0%, 17%, 0);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+
+  }
+  .navbar-link {
+    background-color: var(--jet);
+    border: 0px solid var(--jet);
+    color: hsl(35, 100%, 68%);
+   
+    padding: 10px 27px;
+   
+  }
+
+.font-size:hover{
+    color: hsl(34, 8%, 83%);
+    text-shadow: 0 0 10px hsl(34, 8%, 83%);
+  }
+
+    .font-size{
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .font-family{
+    font-family: 'Poppins', sans-serif;
+    
+  }
+  .navbar { border-radius: 20px 20px 0 0; }
+
+  .navbar-list { gap: 20px; }
+
+  .navbar-logo img{
+    width: 80px;
+  }
+
+  .navbar-logo{
+    margin-right: 80px;
+  
+  }
+
+
+
+
+
+
+.about-article {
+   background-color: #302d2d;
+    padding: 20px;
+    border-radius: 10px;
+   
+    height: 100vh;
+    box-shadow: #292727 0px 0px 10px 0px;
+   
+  }
+
+  .about-article h1 {
+    color: #f5f5f5;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+
+  .about-article p {
+    color: #f5f5f5;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+
+  .about-article img {
+    width: 60%;
+    height: 100%;
+    border-radius: 10px;
+  }
+
+  .card-body{
+    background-color: #242323;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: #292727 0px 0px 10px 0px;
+    margin-bottom: 20px;
+  }
+  .row{
+    margin-top: 50px;
+    margin-bottom: 82px;
+    
+  }
+  div.card-body{
+    width:500px;
+  }
+
+  div.card-body:hover{
+    background-color: #1f1e1e;
+    
+
+  }
+  .card-title{
+    color: #9da163;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  p.card-text{
+    color: #f5f5f5;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+
+#img-hello{
+  width: 40px;
+  object-fit: cover;
+  margin: 0px 10px 0px 10px;
+}
+#my-name{
+  font-size: 54px;
+}
+
+
+
+.footer-socialIcon-Set>a>img{
+  width: 30px;
+  height: 30px;
+  margin: 0px 10px;
+
+}
+
+
+.img_gray {
+  filter: grayscale(1);
+}
+
+.img_gray:hover {
+  filter: none;
+}
+
+
+
+
+
+  
